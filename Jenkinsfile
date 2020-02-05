@@ -3,7 +3,7 @@ node {
    def scannerHome
    stage('SCM CheckOut') {
       //cleanWs disableDeferredWipeout: true, notFailBuild: true
-      git branch: 'master', url: 'https://github.com/sridharsirineni/sridhar.github.git'
+      git branch: 'master', url: 'https://github.com/sridharsirineni/anblicks-sample-webapp.git'
       mvnHome = tool 'M3'
      // def commit = sh(returnStdout: true, script: 'git log -1 --pretty=%B | cat')
       //def matcher = commit =~ ([a-zA-Z][a-zA-Z0-9_]+-[1-9][0-9]*)([^.]|\.[^0-9]|\.$|$)
