@@ -7,7 +7,7 @@ h1{
 }
 </style>
 </head>
-<body style="background-color:blue;">
+<body style="background-color:green;">
 <h1>WELCOME TO ANBLICKS SOLUTIONS PVT LTD</h1>
 </body>
 </html>
